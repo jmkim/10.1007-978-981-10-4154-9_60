@@ -13,6 +13,12 @@ Improving the B+-Tree Construction for Transaction Log Data in Bank System Using
 ### Abstract
 In Socialist Republic of Vietnam, applying the Big data to process any kind of data is still a challenge, especially in the banking sector. Until now, there is only one bank applied Big data to develop a data warehouse system has focused, consistent, can provide invaluable support to executives make immediate decisions, as well as planning long-term strategies, however, it still not able to solve any specific problem. Nowadays, from the fact large amounts of traditional data are still increasing significantly, if B-tree is considered as the standard data structure that manage and organize this kind of data, B+-tree is the most well-known variation of B-tree that is very suitable for applying bulk loading technique in case of data is available. However, it usually takes a lot of time to construct a B+-tree for a huge volume of data. In this paper, we propose a parallel B+-Tree construction scheme based on a Hadoop framework for Transaction log data. The proposed scheme divides the data into partitions, builds local B+-trees in parallel, and merges them to construct a B+-tree that covers the whole data set. While generating the partitions, it considers the data distribution so that each partitions have nearly equal amounts of data. Therefore the proposed scheme gives an efficient index structure while reducing the construction time. 
 
+### Published on
+March 18, 2017
+
+### Published to
+Kim K., Joukov N. (eds) Information Science and Applications 2017. ICISA 2017. Lecture Notes in Electrical Engineering, vol 424. Springer, Singapore
+
 ### DOI
 10.1007/978-981-10-4154-9_60
 
